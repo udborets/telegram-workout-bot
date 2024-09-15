@@ -1,7 +1,7 @@
 from telebot.async_telebot import AsyncTeleBot
 from telebot.types import Message
-from env import BOT_TOKEN
 
+from env import BOT_TOKEN
 from logger import logger
 
 
@@ -14,9 +14,10 @@ async def start(message: Message):
     
 
 ##### start of TODO
-# @bot.message_handler(commands=["help"])
-# async def help(message: Message):
-    # send a list of available commands
+# send a list of available commands
+@bot.message_handler(commands=["help"])
+async def commands(message: Message):
+    pass
     
-    
+
 ##### end of TODO
