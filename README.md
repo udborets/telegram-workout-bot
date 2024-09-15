@@ -2,11 +2,12 @@
 
 - **[Install locally](#install-locally)**
 
-# Install locally
 
-## Via Docker
+# Start locally
 
-## Via Anaconda
+## Install
+
+### Via Anaconda
 
 1. Create and activate Anaconda environment
 
@@ -19,3 +20,6 @@ conda create -n telegram-workout-bot python=3.12 -y
 ```
 pip install -r requrements.txt
 ```
+
+## Create .env file with Telegram bot token
+
