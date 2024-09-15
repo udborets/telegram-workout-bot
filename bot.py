@@ -7,6 +7,12 @@ from logger import logger
 
 bot = AsyncTeleBot(token=BOT_TOKEN)
 
+commands = {
+    "list": {
+        
+        "description": "",
+    },
+}
 
 @bot.message_handler(commands=["start"])
 async def start(message: Message):

@@ -4,8 +4,6 @@
 
 - **[Run locally](#run-locally)**
 
-  - **[Install](#install)**
-
 - **[Feedback](#feedback)**
 
 # TODO
