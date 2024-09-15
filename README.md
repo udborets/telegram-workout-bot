@@ -1,30 +1,54 @@
 # Navigation
 
-- **[TODO](./TODO.md)** 
+- **[TODO](#todo)** 
 
 - **[Start locally](#start-locally)**
 
   - **[Install](#install)**
 
+# TODO
+
+***See [TODO.md](./TODO.md)***
+
 # Start locally
 
-## Install
+## Create .env file
+
+1. add bot token with environment variable name ```BOT_TOKEN```
+
+## Run
+
+### Via Docker
+
+1. Build Docker image
+
+```bash
+docker compose build
+```
+
+2. Run Docker image
+
+```bash
+docker compose up
+```
 
 ### Via Anaconda
 
 1. Create and activate Anaconda environment
 
-``` 
+```bash
 conda create -n telegram-workout-bot python=3.12 -y
 conda activate telegram-workout-bot
 ```
 
 2. Install Python packages
 
-```
+```bash
 pip install -r requrements.txt
 ```
 
-## Create .env file
+3. Run main.py
 
-1. add bot token with environment variable name ```BOT_TOKEN```
+```python
+python main.py
+```
