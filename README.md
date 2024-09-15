@@ -20,7 +20,7 @@
   
 - [ ] add excercies per muscle group?
 
-- [ ] add 
+- [ ] add weights and reps count tracking
 
 - [ ] rate today's workout
 
