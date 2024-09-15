@@ -24,7 +24,7 @@
 
 - [ ] rate today's workout
 
-  - [ ] 1-10 rate 
+  - [ ] 1-10 score 
 
   - [ ] text comment  
 
