@@ -4,3 +4,14 @@ services:
     build: .
     ports:
       - "8000:8000"
+  postgres:
+    image: postgres:17rc1-alpine3.20
+    restart: always
+    ports:
+      - "5432:5432"
+    env_file: ".env.db"
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+
+volumes:
+  postgres_data:
