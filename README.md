@@ -68,7 +68,7 @@
 
     - are there any?
 
-    - [ ] <a id="#1">look for free host services<a>
+    - [ ] <a id="1">look for free host services<a>
 
   - paid host services - (examples)?
 
