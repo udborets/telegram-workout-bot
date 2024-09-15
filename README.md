@@ -2,7 +2,7 @@
 
 - **[TODO](#todo)** 
 
-- **[Start locally](#start-locally)**
+- **[Run locally](#run-locally)**
 
   - **[Install](#install)**
 
@@ -12,11 +12,18 @@
 
 # Run locally
 
-## Create .env file
+## 1. Clone repository
+
+```bash
+git clone https://github.com/udborets/telegram-workout-bot.git
+cd telegram-workout-bot
+```
+
+## 2. Create .env file
 
 1. add bot token with environment variable name ```BOT_TOKEN```
 
-## Start the app
+## 3. Start the app
 
 ### Via Docker
 
@@ -52,3 +59,13 @@ pip install -r requrements.txt
 ```python
 python main.py
 ```
+
+# Feedback
+
+I would love to hear a feedback about this project!
+
+Feel free to contact me via
+
+- Telegram: [@udborets](https://t.me/udborets)
+
+- Email: [udborets@gmail.com](mailto:udborets@gmail.com)
