@@ -8,28 +8,31 @@
 
 # TODO
 
-***high priority***
+## ***high priority***
 
-<!-- **[](#^1)** -->
-<a href="#1" style="bold">where to store info?<a>
+1. <a href="#1">look for free host services<a>
 
 ## workout functionality
 
 - [ ] select workout days
 
   - [ ] choose muscle groups for each workout day
+  
+- [ ] add excercies per muscle group?
+
+- [ ] add 
 
 - [ ] rate today's workout
 
-  - [ ] 1-10
+  - [ ] 1-10 rate 
 
-  - [ ] comment  
+  - [ ] text comment  
 
 ## communication with user
 
-- [ ] add user feedback functionality
+- [ ] add list of available functions 
 
-- [ ]  
+- [ ] add user feedback functionality
 
 ## notifications
 
@@ -38,8 +41,6 @@
   - [ ] silent mode
 
   - [ ] turn on/off
-
-  - [ ]  
 
 - [ ] add notifications about weight updates 
 
@@ -59,7 +60,19 @@
 
 - [ ] dockerize
 
-- [ ] <a id="1" style="text-decoration: unset;">where to store info?<a>
+- [ ] where to host database?
+
+- [ ] where to host app
+
+  - free host services - (examples)?
+
+    - are there any?
+
+    - [ ] <a id="#1">look for free host services<a>
+
+  - paid host services - (examples)?
+
+    - i am not a millionaire
 
 # Start locally
 
@@ -80,7 +93,6 @@ conda activate telegram-workout-bot
 pip install -r requrements.txt
 ```
 
-## Create .env file with Telegram bot token
+## Create .env file
 
-
-
+1. add bot token with environment variable name ```BOT_TOKEN```
