@@ -6,6 +6,8 @@
 
   - **[Install](#install)**
 
+- **[Feedback](#feedback)**
+
 # TODO
 
 ***See [TODO.md](./TODO.md)***
