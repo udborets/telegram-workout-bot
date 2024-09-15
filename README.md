@@ -1,83 +1,11 @@
 # Navigation
 
-- **[TODO](#todo)** 
+- **[TODO](./TODO.md)** 
 
 - **[Start locally](#start-locally)**
 
   - **[Install](#install)**
 
-# TODO
-
-## ***high priority***
-
-1. <a href="#1">add docstrings<a>
-
-2. <a href="#2">look for free host services<a>
-
-
-## workout functionality
-
-- [ ] select workout days
-
-  - [ ] choose muscle groups for each workout day
-  
-- [ ] add excercies per muscle group?
-
-- [ ] add weights and reps count tracking
-
-- [ ] rate today's workout
-
-  - [ ] 1-10 score 
-
-  - [ ] text comment  
-
-## communication with user
-
-- [ ] add list of available functions 
-
-- [ ] add user feedback functionality
-
-## notifications
-
-- [ ] add notifications settings
-
-  - [ ] silent mode
-
-  - [ ] turn on/off
-
-- [ ] add notifications about weight updates 
-
-- [ ] add workout tracking
-
-  - [ ] "went to the gym today?" notification
-
-  - [ ] "going to the gym today" notification
-
-## build graphs (weekly)/(monthly)/(on request)
-
-- [ ] weight
-
-- [ ] days off
-
-## tech stuff
-
-- [ ] dockerize
-
-- [ ] where to host database?
-
-- [ ] where to host app
-
-  - free host services - (examples)?
-
-    - are there any?
-
-    - [ ] <a id="2">look for free host services<a>
-
-  - paid host services - (examples)?
-
-    - i am not a millionaire
-
-- [ ] <a id="1">add docstrings<a>
 
 # Start locally
 
