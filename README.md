@@ -64,7 +64,7 @@ python main.py
 
 # Feedback
 
-I would love to hear a feedback about this project!
+I would love to get a feedback about this project!
 
 Feel free to contact me via
 
