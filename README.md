@@ -10,13 +10,13 @@
 
 ***See [TODO.md](./TODO.md)***
 
-# Start locally
+# Run locally
 
 ## Create .env file
 
 1. add bot token with environment variable name ```BOT_TOKEN```
 
-## Run
+## Start the app
 
 ### Via Docker
 
