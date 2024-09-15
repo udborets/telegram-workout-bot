@@ -59,7 +59,7 @@
 
 - [ ] dockerize
 
-- [ ] <a id="1">where to store info?<a>
+- [ ] <a id="1" style="text-decoration: none;">where to store info?<a>
 
 # Start locally
 
