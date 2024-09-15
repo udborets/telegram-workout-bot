@@ -14,7 +14,7 @@
 
 # Run locally
 
-## 1. Clone repository
+## 1. Clone the repository
 
 ```bash
 git clone https://github.com/udborets/telegram-workout-bot.git
@@ -23,7 +23,7 @@ cd telegram-workout-bot
 
 ## 2. Create .env file
 
-1. add bot token with environment variable name ```BOT_TOKEN```
+1. add bot token environment variable named ```BOT_TOKEN```
 
 ## 3. Start the app
 
@@ -41,9 +41,9 @@ docker compose build
 docker compose up
 ```
 
-### Via Anaconda
+### Via Python
 
-1. Create and activate Anaconda environment
+1. (optional) Create and activate Anaconda environment
 
 ```bash
 conda create -n telegram-workout-bot python=3.12 -y
