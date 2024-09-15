@@ -6,6 +6,8 @@
 
 2. <a href="#2">look for free host services<a>
 
+3. <a href="#database">database<a>
+
 ## macro tracking functionality
 
 - [ ] add "add product" function
@@ -87,3 +89,15 @@
     - i am not a millionaire
 
 - [ ] <a id="1">add docstrings<a>
+
+## database
+
+- [x] create users table
+
+- [x] create products table
+
+- [x] create consumed products table
+
+- [ ] create days table
+
+- [ ] 

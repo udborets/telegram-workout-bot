@@ -17,6 +17,7 @@ commands = {
 @bot.message_handler(commands=["start"])
 async def start(message: Message):
     await bot.send_message(message.chat.id, "Hello World!")
+    await bot.send_message(message.chat.id, f"{message.from_user.id}")
 
 
 ##### start of TODO
