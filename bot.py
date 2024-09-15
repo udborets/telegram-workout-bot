@@ -12,4 +12,5 @@ bot = AsyncTeleBot(token=BOT_TOKEN)
 async def start(message: Message):
     await bot.send_message(message.chat.id, "Hello World!")
     
-        
+
+@bot.message_handler(commands=["help"])

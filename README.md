@@ -8,13 +8,58 @@
 
 # TODO
 
-- [ ] add notifications about weight updates 
+***high priority***
 
-- [ ] add weight tracking
+<!-- **[](#^1)** -->
+<a href="#1" style="bold">where to store info?<a>
+
+## workout functionality
+
+- [ ] select workout days
+
+  - [ ] choose muscle groups for each workout day
+
+- [ ] rate today's workout
+
+  - [ ] 1-10
+
+  - [ ] comment  
+
+## communication with user
+
+- [ ] add user feedback functionality
+
+- [ ]  
+
+## notifications
+
+- [ ] add notifications settings
+
+  - [ ] silent mode
+
+  - [ ] turn on/off
+
+  - [ ]  
+
+- [ ] add notifications about weight updates 
 
 - [ ] add workout tracking
 
-  - [ ] went to the gym today?
+  - [ ] "went to the gym today?" notification
+
+  - [ ] "going to the gym today" notification
+
+## build graphs (weekly)/(monthly)/(on request)
+
+- [ ] weight
+
+- [ ] days off
+
+## tech stuff
+
+- [ ] dockerize
+
+- [ ] <a id="1"><a>
 
 # Start locally
 
