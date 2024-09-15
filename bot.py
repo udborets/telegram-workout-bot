@@ -13,4 +13,10 @@ async def start(message: Message):
     await bot.send_message(message.chat.id, "Hello World!")
     
 
-@bot.message_handler(commands=["help"])
+##### start of TODO
+# @bot.message_handler(commands=["help"])
+# async def help(message: Message):
+    # send a list of available commands
+    
+    
+##### end of TODO

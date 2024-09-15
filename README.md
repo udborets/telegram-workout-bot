@@ -10,7 +10,10 @@
 
 ## ***high priority***
 
-1. <a href="#1">look for free host services<a>
+1. <a href="#1">add docstrings<a>
+
+2. <a href="#2">look for free host services<a>
+
 
 ## workout functionality
 
@@ -68,11 +71,13 @@
 
     - are there any?
 
-    - [ ] <a id="1">look for free host services<a>
+    - [ ] <a id="2">look for free host services<a>
 
   - paid host services - (examples)?
 
     - i am not a millionaire
+
+- [ ] <a id="1">add docstrings<a>
 
 # Start locally
 
