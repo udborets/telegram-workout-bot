@@ -1,6 +1,4 @@
 import asyncio
-import http
-import aiohttp
 from bot import bot
 
 
