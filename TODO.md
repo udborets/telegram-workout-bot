@@ -70,7 +70,7 @@
 
 ## tech stuff
 
-- [ ] dockerize
+- [x] dockerize
 
 - [ ] where to host database?
 

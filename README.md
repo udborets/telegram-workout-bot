@@ -6,7 +6,6 @@
 
   - **[Install](#install)**
 
-
 # Start locally
 
 ## Install
