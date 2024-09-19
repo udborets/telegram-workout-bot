@@ -1,6 +1,6 @@
 import asyncio
-from bot import bot
 
+from bot import bot
 from logger import logger
 
 

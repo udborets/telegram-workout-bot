@@ -11,14 +11,13 @@ COMMENT ON SCHEMA public IS 'standard public schema';
 -- DROP TABLE public.users;
 
 CREATE TABLE public.users (
-	id int8 NOT NULL,
+	id int8 NOT NULL PRIMARY KEY,
 	telegram_chat_id int8 NOT NULL,
 	telegram_name text NULL,
 	current_weight numeric NULL,
 	created_at timestamp NOT NULL,
 	updated_at timestamp NOT NULL,
 	CONSTRAINT telegram_chat_id_unique UNIQUE (telegram_chat_id),
-	CONSTRAINT users_pkey PRIMARY KEY (id)
 );
 
 

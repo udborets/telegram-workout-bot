@@ -1,6 +1,6 @@
 services:
   telegram-workout-bot:
-    env_file: ".env"
+    env_file: "bot/.env"
     build: .
     ports:
       - "8000:8000"
@@ -9,9 +9,9 @@ services:
     restart: always
     ports:
       - "5432:5432"
-    env_file: ".env.db"
+    env_file: "database/.env.db"
     volumes:
-      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql
 
 volumes:
   postgres_data:

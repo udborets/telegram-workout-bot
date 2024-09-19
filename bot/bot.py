@@ -1,8 +1,8 @@
 from telebot.async_telebot import AsyncTeleBot
 from telebot.types import Message
 
-from env import BOT_TOKEN
-from logger import logger
+from .env import BOT_TOKEN
+# from ..logger import logger
 
 
 bot = AsyncTeleBot(token=BOT_TOKEN)
