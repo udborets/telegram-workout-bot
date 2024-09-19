@@ -1,17 +1,21 @@
 services:
-  telegram-workout-bot:
-    env_file: "bot/.env"
-    build: .
-    ports:
-      - "8000:8000"
   postgres:
     image: postgres:17rc1-alpine3.20
     restart: always
     ports:
       - "5432:5432"
-    env_file: "database/.env.db"
+    env_file: "./src/database/.env"
     volumes:
-      - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./src/database/init.sql:/docker-entrypoint-initdb.d/init.sql
+  telegram-workout-bot:
+    env_file: "./src/bot/.env"
+    depends_on:
+      postgres:
+        condition: service_started
+        restart: true
+    build: ./src/
+    ports:
+      - "8000:8000"
 
 volumes:
   postgres_data:
